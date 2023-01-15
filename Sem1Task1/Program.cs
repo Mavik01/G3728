@@ -11,24 +11,21 @@ string? inputNum2 = Console.ReadLine();
 
 if ((inputNum1 != null) && (inputNum2 != null))
 {
-    if ((int)Math.Pow(int.Parse(inputNu
+    // if ((int)Math.Pow(int.Parse(inputNum1)==int.Parse(inputNum2)))
 // //Проверяем, чтобы данные были не пустыми
-// if (inputNum1 != null && inputNum2 != null)
-// {
+
 //     //Парсим введенное число
-//     int number1 = int.Parse(inputNum1);
+    int number1 = int.Parse(inputNum1);
 //     //Парсим введенное число
-//     int number2 = int.Parse(inputNum2);
+    int number2 = int.Parse(inputNum2);
 
-//     // if(number1==number2*number2)
-//     // {
-//     //     Console.WriteLine("Первое число квадрат второго!");
-//     // }
-//     // else
-//     // {
-//     //     Console.WriteLine("Первое число не квадрат второго!");
-//     // }
+    if(number1==number2*number2)
+    {
+        Console.WriteLine("Первое число квадрат второго!");
+    }
+    else
+    {
+        Console.WriteLine("Первое число не квадрат второго!");
+    }
 
-
-
-// }
+}
